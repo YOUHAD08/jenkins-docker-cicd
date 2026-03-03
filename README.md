@@ -174,19 +174,19 @@ docker run -d --name bdcc-container -p 8090:80 youhad10/jenkins-docker-cicd:BUIL
 
 ### Jenkins Dashboard
 
-![Jenkins Dashboard](images\dashboard.png)
+![Jenkins Dashboard](images/dashboard.png)
 
 ### Stage View — All 5 Stages Passing
 
-![Stage View — All 5 Stages Passing](images\stage-view.png)
+![Stage View — All 5 Stages Passing](images/stage-view.png)
 
 ### Docker Hub — Published Images
 
-![Docker Hub — Published Images](images\docker-hub.png)
+![Docker Hub — Published Images](images/docker-hub.png)
 
 ### Live Application at localhost:8090
 
-![Live Application a tlocalhost:8090](images\live-application.png)
+![Live Application a tlocalhost:8090](images/live-application.png)
 
 ---
 

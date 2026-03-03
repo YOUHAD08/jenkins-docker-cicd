@@ -41,7 +41,7 @@ The result: your web application is **live and updated automatically** at `http:
 
 ## 🏗️ Pipeline Architecture
 
-## ![Pipeline Architecture](images\pipeline-architecture.png)
+## ![Pipeline Architecture](images/pipeline-architecture.png)
 
 ## 📁 Project Structure
 

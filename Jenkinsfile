@@ -36,5 +36,14 @@ pipeline {
                 }
             }
         }
+        stage('Deploy image') {
+            steps {
+                bat """
+                    docker stop bdcc-container || true
+                    docker rm bdcc-container || true
+                    docker run -d --name bdcc-container -p 8090:80 ${registry}:${env.BUILD_NUMBER}
+                """
+            }
+        }
     }
 }
